@@ -20,7 +20,7 @@ class MainWindow(ctk.CTk):
 
     def on_closing(self):
         if messagebox.askokcancel("WARNING", "Are you sure you want to quit?"): self.destroy()
-        else: pass # print("Changed your mind i see")
+        else: pass
 
 class MainWindow_Menu(tk.Menu):
     def __init__(self, app, *args, **kwargs):
