@@ -16,7 +16,7 @@ class MainWindow(ctk.CTk):
         self.iconbitmap('skull_icon_c.ico')
         # self.state('zoomed')
         self.configure(background='#8585ad')
-        # self.protocol("WM_DELETE_WINDOW", self.on_closing) # enable once beta is ready
+        # self.protocol("WM_DELETE_WINDOW", self.on_closing) # enable once beta is ready.
 
     def on_closing(self):
         if messagebox.askokcancel("WARNING", "Are you sure you want to quit?"): self.destroy()
