@@ -8,7 +8,7 @@ from GSC_Node_Editor.node_wire import NodeWire
 
 class MainWindow_MainFrame(tk.Frame):
     def __init__(self, app, *args, **kwargs):
-        super().__init__(app, *args, **kwargs)#, borderwidth=5, background='#000000', relief='sunken')
+        super().__init__(app, *args, **kwargs)
         # 'self' = main_frame
 
         left_frame = MainFrame_LeftFrame(self, borderwidth=1, bg='#D3D3D3', relief=tk.FLAT)
